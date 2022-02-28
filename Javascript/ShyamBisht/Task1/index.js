@@ -18,13 +18,13 @@ function evenORodd(num){
 numbers.forEach(PrimeNumbers);
 const PrimeNumList = [];
 function PrimeNumbers(num){
-    let isPrime = true;
+    let isPrime = false;
     if(num == 0 || num == 1){
         console.log(num, "is not prime.");
     }
     for(let i = 2; i<num/2; i++){
         if(num%i==0){
-            isPrime = false;
+            isPrime = true;
         }
     }
 
