@@ -10,7 +10,7 @@ function evenORodd(num){
     if(num % 2 ==0){
         console.log(num, "is Even");
     }else{
-        console.log(num, "is even");
+        console.log(num, "is Odd");
     }
 }
 
@@ -18,13 +18,13 @@ function evenORodd(num){
 numbers.forEach(PrimeNumbers);
 const PrimeNumList = [];
 function PrimeNumbers(num){
-    let isPrime = false;
+    let isPrime = true;
     if(num == 0 || num == 1){
         console.log(num, "is not prime.");
     }
     for(let i = 2; i<num/2; i++){
         if(num%i==0){
-            isPrime = true;
+            isPrime = false;
         }
     }
 
