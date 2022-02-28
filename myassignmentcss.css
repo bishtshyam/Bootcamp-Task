@@ -1,0 +1,138 @@
+
+
+
+My-web-page-nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: grey;
+}
+.My-web-page-nav li{
+display: inline;
+float: left;
+background-color: #5AADBF;
+border-right: 1px solid #bbb;
+}
+
+.My-web-page li:last-child{
+border-right: none;
+}
+
+
+.My-web-page-nav li a{
+display: block;
+color: white;
+text-align: center;
+padding: 16px 12px;
+text-decoration: none;
+
+}
+
+.My-web-page-nav li a:hover{
+background-color: #333;
+} 
+
+
+.My-web-page{
+	max-width: 1000px;
+	padding: 10px 20px;
+	background: #5AADBF;
+	margin: 50px auto;
+	padding: 20px;
+	background: #5AADBF;
+	border-radius: 8px;
+        
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.My-web-page fieldset{
+	border: none;
+}
+.My-web-page legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.My-web-page label {
+	display: block;
+	margin-bottom: 8px;
+}
+.My-web-page input[type="text"],
+.My-web-page input[type="date"],
+.My-web-page input[type="datetime"],
+.My-web-page input[type="email"],
+.My-web-page input[type="number"],
+.My-web-page input[type="search"],
+.My-web-page input[type="time"],
+.My-web-page input[type="url"],
+.My-web-page textarea,
+.My-web-page select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color: grey;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.My-web-page input[type="text"]:focus,
+.My-web-page input[type="date"]:focus,
+.My-web-page input[type="datetime"]:focus,
+.My-web-page input[type="email"]:focus,
+.My-web-page input[type="number"]:focus,
+.My-web-page input[type="search"]:focus,
+.My-web-page input[type="time"]:focus,
+.My-web-page input[type="url"]:focus,
+.My-web-page textarea:focus,
+.My-web-page select:focus{
+	background: #d2d9dd;
+}
+.My-web-page select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.My-web-page .number {
+	background: #333;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.My-web-page input[type="submit"],
+.My-web-page input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #333;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 2px solid #5AADBF;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.My-web-page input[type="submit"]:hover,
+.My-web-page input[type="button"]:hover
+{
+	background: grey;
+}
