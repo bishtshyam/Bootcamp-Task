@@ -1,6 +1,6 @@
 // Enven and Odd
 const numbers = [];
-for(let i=0;i<=100;i++){
+for(let i= 1;i<=100;i++){
    numbers[i] = Math.floor(Math.random()*101);
 }
 
