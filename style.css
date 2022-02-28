@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-radius: 4px;
+    box-shadow: 1000px grey;
+}
+
+.logo-home{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-center{
+    padding-left: 250px;
+}
+
+.ul-link{
+    display: flex;
+    padding-left: 800px;
+    list-style-type: none;
+    position: absolute;
+    left: 35%;
+}
+
+.ul-link a{
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    border-radius: 4px;
+}
+
+.ccbutton{
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 4px;
+    height: 28px;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-box{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.btn-hero{
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+
